@@ -12,6 +12,7 @@
 		CCE317691D2D7A5D0055270E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCE317671D2D7A5D0055270E /* Main.storyboard */; };
 		CCE3176B1D2D7A5D0055270E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCE3176A1D2D7A5D0055270E /* Assets.xcassets */; };
 		CCE3176E1D2D7A5D0055270E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCE3176C1D2D7A5D0055270E /* LaunchScreen.storyboard */; };
+		CCE317761D2D84370055270E /* InteractiveStory.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE317751D2D84370055270E /* InteractiveStory.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		CCE3176A1D2D7A5D0055270E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CCE3176D1D2D7A5D0055270E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CCE3176F1D2D7A5D0055270E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCE317751D2D84370055270E /* InteractiveStory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InteractiveStory.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				CCE317631D2D7A5D0055270E /* AppDelegate.swift */,
 				CCE317651D2D7A5D0055270E /* ViewController.swift */,
+				CCE317751D2D84370055270E /* InteractiveStory.swift */,
 				CCE317671D2D7A5D0055270E /* Main.storyboard */,
 				CCE3176A1D2D7A5D0055270E /* Assets.xcassets */,
 				CCE3176C1D2D7A5D0055270E /* LaunchScreen.storyboard */,
@@ -136,6 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CCE317761D2D84370055270E /* InteractiveStory.swift in Sources */,
 				CCE317661D2D7A5D0055270E /* ViewController.swift in Sources */,
 				CCE317641D2D7A5D0055270E /* AppDelegate.swift in Sources */,
 			);
