@@ -63,16 +63,16 @@ class Page {
 }
 
 extension Page {
-    func addChoice(title: String, story: Story) -> Page {
+    func addChoice(_ title: String, story: Story) -> Page {
         let page = Page(story: story)
         return addChoice(title, page: page)
     }
     
-    func addChoice(title: String, page: Page) -> Page {
+    func addChoice(_ title: String, page: Page) -> Page {
         switch (firstChoice, secondChoice) {
-            case (.Some, .Some): break
-            case (.None, .None), (.None, .Some): firstChoice = (title, page)
-            case (.Some, .None): secondChoice = (title, page)
+            case (.some, .some): break
+            case (.none, .none), (.none, .some): firstChoice = (title, page)
+            case (.some, .none): secondChoice = (title, page)
         }
         return page
     }
